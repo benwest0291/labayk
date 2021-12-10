@@ -79,6 +79,7 @@ input[type="text"] {
   margin-top: 70px;
   height: 30px;
   width: 300px;
+  padding: 25px;
 }
 
 .main-img-banner {
@@ -92,6 +93,7 @@ input[type="text"] {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1640px;
 }
 
 .mailing-heading {
@@ -113,15 +115,18 @@ input[type="text"] {
   text-align: left;
 }
 
-.button-1 {
-  margin-top: 60px;
+.sign-up-button {
+  margin-top: 72px;
   background-color: #ffe28c;
-  width: 131px;
-  height: 50px;
   color: #1f2f4b;
   font-family: Lato;
   font-size: 17px;
-  line-height: 50px;
+  width: 100px;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+  height: 55px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 /* green-Footer */
@@ -130,7 +135,7 @@ input[type="text"] {
   display: flex;
   justify-content: center;
   background-color: #26705e;
-  width: 100vw;
+  width: 1640px;
 }
 
 .policy-item {
@@ -151,6 +156,7 @@ input[type="text"] {
   justify-content: center;
   height: 20px;
   margin-top: 20px;
+  width: 1640px;
 }
 
 .payment-item {
@@ -167,6 +173,19 @@ input[type="text"] {
   align-items: center;
   background-color: #1f2f4b;
   padding: 25px;
+  width: 1640px;
+}
+
+.footer-button {
+  background-color: #ffe28c;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 17px;
+  line-height: 50px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #fff;
 }
 
 .white {
