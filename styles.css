@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+/* nav-bar */
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  width: 1640px;
+}
+
+.logo-img {
+  margin-top: 20px;
+  margin-left: 301px;
+  width: 49px;
+}
+
+.login-img {
+  margin-top: 20px;
+  width: 49px;
+  margin-right: 301px;
+}
+
+.nav-list {
+  display: flex;
+  height: 27px;
+}
+
+.nav-item {
+  color: #26705e;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+/* Push Footer Down */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+/* Banner */
+
+.top-banner {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f5f5;
+  width: 1640px;
+  height: 170px;
+}
+
+.banner-logo {
+  margin-top: 45px;
+  margin-right: 90px;
+  width: 284px;
+  height: 69px;
+}
+
+input[type="text"] {
+  margin-left: 90px;
+  margin-top: 70px;
+  height: 30px;
+  width: 300px;
+}
+
+.main-img-banner {
+  width: 1640px;
+  height: 1137px;
+}
+
+/* Mailing List */
+
+.mailing-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mailing-heading {
+  margin-top: 100px;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.terms {
+  margin-left: 678px;
+  color: #656565;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 24px;
+  width: 633px;
+  text-align: left;
+}
+
+.button-1 {
+  margin-top: 60px;
+  background-color: #ffe28c;
+  width: 131px;
+  height: 50px;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 17px;
+  line-height: 50px;
+}
+
+/* green-Footer */
+
+.policy-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #26705e;
+  width: 100vw;
+}
+
+.policy-item {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
+}
+
+/* Payment Footer */
+
+.payment-footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.payment-item {
+  width: 31px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Blue Footer */
+
+.blue-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1f2f4b;
+  padding: 25px;
+}
+
+.white {
+  font-family: Lato;
+  color: #fff;
+}
+
+.address {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 28px;
+  width: 281px;
+}
+
+.socials {
+  display: flex;
+  width: 30px;
+}
+
+.socials-icon {
+  margin-right: 5px;
+}
+
+.contact {
+  display: flex;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 21px;
+  width: 281px;
+  text-align: left;
+}
+
+.categories-heading {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 25px;
+  line-height: 30px;
+  width: 282px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.categories-item {
+  color: #ffe28c;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 35px;
+  width: 281px;
+  text-align: left;
+  list-style-type: none;
+}
