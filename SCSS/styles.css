@@ -1,12 +1,15 @@
-* {
-  box-sizing: border-box;
-}
 /* nav-bar */
-
 .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 20px;
   width: 1640px;
 }
@@ -24,6 +27,8 @@
 }
 
 .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 27px;
 }
@@ -38,30 +43,14 @@
   list-style-type: none;
 }
 
-/* Push Footer Down */
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-.wrapper {
-  min-height: 100%;
-
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
-}
-.footer,
-.push {
-  height: 50px;
-}
-
 /* Banner */
-
 .top-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   background-color: #f5f5f5;
   width: 1640px;
   height: 170px;
@@ -87,53 +76,14 @@ input[type="text"] {
   height: 1137px;
 }
 
-/* Mailing List */
-
-.mailing-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1640px;
-}
-
-.mailing-heading {
-  margin-top: 100px;
-  color: #1f2f4b;
-  font-family: Lato;
-  font-size: 35px;
-  line-height: 60px;
-  text-align: left;
-}
-
-.terms {
-  margin-left: 678px;
-  color: #656565;
-  font-family: Lato;
-  font-size: 16px;
-  line-height: 24px;
-  width: 633px;
-  text-align: left;
-}
-
-.sign-up-button {
-  margin-top: 72px;
-  background-color: #ffe28c;
-  color: #1f2f4b;
-  font-family: Lato;
-  font-size: 17px;
-  width: 100px;
-  text-align: center;
-  line-height: 55px;
-  text-decoration: none;
-  height: 55px;
-  border-radius: 0px 10px 10px 0px;
-}
-
 /* green-Footer */
-
 .policy-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #26705e;
   width: 1640px;
 }
@@ -149,11 +99,14 @@ input[type="text"] {
 }
 
 /* Payment Footer */
-
 .payment-footer {
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 20px;
   margin-top: 20px;
   width: 1640px;
@@ -166,11 +119,16 @@ input[type="text"] {
 }
 
 /* Blue Footer */
-
 .blue-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #1f2f4b;
   padding: 25px;
   width: 1640px;
@@ -202,6 +160,8 @@ input[type="text"] {
 }
 
 .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 30px;
 }
@@ -211,6 +171,8 @@ input[type="text"] {
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: #ffffff;
   font-family: Lato;
@@ -247,3 +209,75 @@ input[type="text"] {
   text-align: left;
   list-style-type: none;
 }
+
+/* Mailing List */
+.mailing-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1640px;
+}
+
+.mailing-heading {
+  margin-top: 100px;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.terms {
+  margin-left: 678px;
+  color: #656565;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 24px;
+  width: 633px;
+  text-align: left;
+}
+
+.sign-up-button {
+  margin-top: 72px;
+  background-color: #ffe28c;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 17px;
+  width: 100px;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+  height: 55px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Push Footer Down */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+/*# sourceMappingURL=styles.css.map */

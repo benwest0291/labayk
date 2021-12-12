@@ -1,0 +1,41 @@
+/* Mailing List */
+
+.mailing-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1640px;
+}
+
+.mailing-heading {
+  margin-top: 100px;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: left;
+}
+
+.terms {
+  margin-left: 678px;
+  color: #656565;
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 24px;
+  width: 633px;
+  text-align: left;
+}
+
+.sign-up-button {
+  margin-top: 72px;
+  background-color: #ffe28c;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 17px;
+  width: 100px;
+  text-align: center;
+  line-height: 55px;
+  text-decoration: none;
+  height: 55px;
+  border-radius: 0px 10px 10px 0px;
+}

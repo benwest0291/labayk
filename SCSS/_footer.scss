@@ -1,0 +1,118 @@
+/* green-Footer */
+
+.policy-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #26705e;
+  width: 1640px;
+}
+
+.policy-item {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
+}
+
+/* Payment Footer */
+
+.payment-footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-top: 20px;
+  width: 1640px;
+}
+
+.payment-item {
+  width: 31px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Blue Footer */
+
+.blue-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1f2f4b;
+  padding: 25px;
+  width: 1640px;
+}
+
+.footer-button {
+  background-color: #ffe28c;
+  color: #1f2f4b;
+  font-family: Lato;
+  font-size: 17px;
+  line-height: 50px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #fff;
+}
+
+.white {
+  font-family: Lato;
+  color: #fff;
+}
+
+.address {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 28px;
+  width: 281px;
+}
+
+.socials {
+  display: flex;
+  width: 30px;
+}
+
+.socials-icon {
+  margin-right: 5px;
+}
+
+.contact {
+  display: flex;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 21px;
+  width: 281px;
+  text-align: left;
+}
+
+.categories-heading {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 25px;
+  line-height: 30px;
+  width: 282px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.categories-item {
+  color: #ffe28c;
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 35px;
+  width: 281px;
+  text-align: left;
+  list-style-type: none;
+}
