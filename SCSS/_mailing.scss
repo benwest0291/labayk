@@ -4,12 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1640px;
+  width: 100vw;
 }
 
 .mailing-heading {
   margin-top: 100px;
-  color: #1f2f4b;
+  color: $dark-blue;
   font-family: Lato;
   font-size: 35px;
   line-height: 60px;
@@ -18,7 +18,7 @@
 
 .terms {
   margin-left: 678px;
-  color: #656565;
+  color: $grey;
   font-family: Lato;
   font-size: 16px;
   line-height: 24px;
@@ -28,7 +28,8 @@
 
 .sign-up-button {
   margin-top: 72px;
-  background-color: #ffe28c;
+  margin-bottom: 22px;
+  background-color: $yellow;
   color: #1f2f4b;
   font-family: Lato;
   font-size: 17px;
