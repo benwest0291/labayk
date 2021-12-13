@@ -1,27 +1,28 @@
 /* nav-bar */
 
 .main-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 20px;
-  width: 100vw;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  // padding-bottom: 20px;
+  // width: 100vw;
 }
 
 .logo-img {
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-left: 301px;
   width: 49px;
 }
 
 .login-img {
-  margin-top: 20px;
+  // margin-top: 20px;
   width: 49px;
   margin-right: 301px;
 }
 
 .nav-list {
-  display: flex;
+  // margin-top: 15px;
+  // display: flex;
   height: 27px;
 }
 
@@ -30,7 +31,7 @@
   font-family: Lato;
   font-size: 18px;
   line-height: 22px;
-  margin: 20px;
+  // margin: 20px;
   text-align: center;
   list-style-type: none;
 }
