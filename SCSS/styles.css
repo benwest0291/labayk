@@ -148,6 +148,8 @@ input[type="text"] {
 }
 
 .white {
+  margin-top: 15px;
+  margin-left: 5px;
   font-family: Lato;
   color: #fff;
 }
@@ -158,6 +160,7 @@ input[type="text"] {
   font-size: 18px;
   line-height: 28px;
   width: 281px;
+  margin-top: 15px;
 }
 
 .socials {
@@ -165,6 +168,7 @@ input[type="text"] {
   display: -ms-flexbox;
   display: flex;
   width: 30px;
+  margin-bottom: 15px;
 }
 
 .socials-icon {
