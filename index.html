@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="d-flex flex-row justify-content-between w-auto pb-3 * 5">
+
+    <nav class="main-nav d-flex flex-row justify-content-between pb-3 * 5">
       <img src="images/login.svg" class="logo-img mb-3 mt-4"/>
       <div>
         <ul class="nav-list d-flex mt-4">
@@ -24,68 +25,64 @@
       <img src="images/basket.svg" class="login-img mb-3 mt-4" />
     </nav>
 
-    <div class="wrapper">
-     <div class="top-banner">
+     <div class="top-banner d-flex justify-content-around">
        <img class="banner-logo"src="images/labayk-1.svg" />
        <input type="text" placeholder="Search our website">
      </div>
 
      <div class='main-banner'>
-       <img class="main-img-banner"src="images/recipes-banner.jpg" />
+       <img class="main-img-banner w-auto"src="images/recipes-banner.jpg" />
      </div>
 
-    </div>
 
-    <div class="push"></div>
-
-    <div class="mailing-list">
+    <div class=" mailing-list d-flex justify-content-center align-items-center">
       <h4 class="mailing-heading">Join our mailing list </h4>
       <input class="sign-up-form" type="text" placeholder="Your name">
       <input class="sign-up-form" type="text" placeholder="Your email address">
       <a class="sign-up-button" href="#">Sign up</a>
     </div>
-     <p class="terms">Of course, we won’t share or sell your data, who does that? Terms and conditions.</p>
+     <p class="terms text-left">Of course, we won’t share or sell your data, who does that? Terms and conditions.</p>
 
     <footer>
-      <div class="blue-footer">
+      <div class="blue-footer d-flex justify-content-between align-items-center p-4">
         <div class="section-1">
-          <img src="images/labayk.svg" />
-          <p class="address">71-75 Shelton Street, London WC2H 9JQ</p>
-          <div class="contact">
+          <img class="mb-2" src="images/labayk.svg" />
+          <p class="address mt- 2">71-75 Shelton Street, London WC2H 9JQ</p>
+          <div class="contact d-flex text-left">
             <img src="images/noun_Phone Circle_1784018.svg" />
-            <p class="white">020 3950 3375</p>
+            <p class="info mt-2 ml-1">020 3950 3375</p>
           </div>
-          <div class="contact">
+          <div class="contact d-flex">
             <img src="images/noun_Mail_2278341.svg" />
-            <p class="white">info@labayk.co.uk</p>
+            <p class="info mt-2 ml-1">info@labayk.co.uk</p>
           </div>
-          <div class="socials">
-            <img class="socials-icon" src="images/facebook-3.svg" />
-            <img class="socials-icon" src="images/twitter-3.svg" />
-            <img class="socials-icon" src="images/linkedin-icon.svg" />
-            <img class="socials-icon" src="images/instagram-glyph-1.svg" />
+          <div class="d-flex socials mb-3">
+            <img class="socials-icon mr-1" src="images/facebook-3.svg" />
+            <img class="socials-icon mr-1" src="images/twitter-3.svg" />
+            <img class="socials-icon mr-1" src="images/linkedin-icon.svg" />
+            <img class="socials-icon mr-1" src="images/instagram-glyph-1.svg" />
           </div>
           <div>
-            <p class="footer-text">
+            <p class="footer-text text-left">
               © 2020 – Labayk Inc Limited. Registered In England And Wales.
               Company Number: 11919858. All Rights Reserved.
             </p>
           </div>
         </div>
 
-        <div class="categories">
-          <h4 class="categories-heading">Categories</h6>
+        <div class="categories flex-column ">
+          <h4 class="categories-heading mb-4">Categories</h6>
           <ul>
-            <li class="categories-item">Mutton & lamb</li>
-            <li class="categories-item">Chicken & Poultry</li>
-            <li class="categories-item">Beef</li>
-            <li class="categories-item">Goat</li>
-            <li class="categories-item">Fish</li>
-            <li class="categories-item">Grocieries</li>
+            <li class="categories-item ">Mutton & lamb</li>
+            <li class="categories-item ">Chicken & Poultry</li>
+            <li class="categories-item ">Beef</li>
+            <li class="categories-item ">Goat</li>
+            <li class="categories-item ">Fish</li>
+            <li class="categories-item ">Grocieries</li>
           </ul>
         </div>
 
-          <div class="categories">
+          <div class="categories flex-column">
           <h4 class="categories-heading">Latest News</h6>
           <ul>
             <li class="categories-item">New Title</li>
@@ -93,36 +90,37 @@
             <li class="categories-item">New Title</li>
             <li class="categories-item">New Title</li>
             <li class="categories-item">New Title</li>
-            <a class="footer-button" href="#">View all news</a>
+            <a class="footer-button p-2" href="#">View all news</a>
           </ul>
         </div>
 
-          <div class="categories">
+          <div class="categories flex-column">
           <h4 class="categories-heading">Latest Recipes</h4>
           <ul>
-            <li class="categories-item">Name of the recipe</li>
-            <li class="categories-item">Name of the recipe</li>
-            <li class="categories-item">Name of the recipe</li>
-            <li class="categories-item">Name of the recipe</li>
-            <li class="categories-item">Name of the recipe</li>
-            <a class="footer-button" href="#">View all recipes</a>
+            <li class="categories-item ">Name of the recipe</li>
+            <li class="categories-item ">Name of the recipe</li>
+            <li class="categories-item ">Name of the recipe</li>
+            <li class="categories-item ">Name of the recipe</li>
+            <li class="categories-item ">Name of the recipe</li>
+            <a class="footer-button p-2" href="#">View all recipes</a>
           </ul>
         </div>
       </div>
-      <div class="payment-footer">
-        <img src="images/apple-pay-payment-mark.svg" class="payment-item" />
-        <img src="images/google-pay-primary-logo.svg" class="payment-item" />
-        <img src="images/maestro-2.svg" class="payment-item" />
-        <img src="images/paypal-2.svg" class="payment-item" />
-        <img src="images/mastercard-2.svg" class="payment-item" />
-        <img src="images/visa.svg" class="payment-item" />
+      <div class="payment-footer d-flex justify-content-center mb-3 mt-3">
+        <img src="images/apple-pay-payment-mark.svg" class="payment-item m-1 " />
+        <img src="images/google-pay-primary-logo.svg" class="payment-item m-1 " />
+        <img src="images/maestro-2.svg" class="payment-item m-1 " />
+        <img src="images/paypal-2.svg" class="payment-item m-1 " />
+        <img src="images/mastercard-2.svg" class="payment-item m-1 " />
+        <img src="images/visa.svg" class="payment-item m-1 " />
       </div>
-      <ul class="policy-footer">
-        <li class="policy-item">Policy Document</li>
-        <li class="policy-item">Policy Document</li>
-        <li class="policy-item">Policy Document</li>
+      <ul class="policy-footer d-flex align-items-row justify-content-center">
+        <li class="policy-item m-2 ">Policy Document</li>
+        <li class="policy-item m-2 "">Policy Document</li>
+        <li class="policy-item m-2 ">Policy Document</li>
       </ul>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

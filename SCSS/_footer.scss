@@ -1,10 +1,10 @@
 /* green-Footer */
 
 .policy-footer {
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   background-color: $green;
-  width: 100vw;
+  width: 1640px;
 }
 
 .policy-item {
@@ -12,38 +12,38 @@
   font-family: Lato;
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
+  // text-align: center;
   list-style-type: none;
-  margin: 10px;
+  // margin: 10px;
 }
 
 /* Payment Footer */
 
 .payment-footer {
   background-color: $white-1;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
   height: 20px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  width: 100vw;
+  // margin-top: 20px;
+  // margin-bottom: 15px;
+  width: 1640px;
 }
 
 .payment-item {
   width: 31px;
   height: 20px;
-  margin-right: 10px;
+  // margin: 10px;
 }
 
 /* Blue Footer */
 
 .blue-footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  // display: flex;
+  // justify-content: space-evenly;
+  // align-items: center;
   background-color: $dark-blue;
-  padding: 25px;
-  width: 100vw;
+  // padding: 25px;
+  width: 1640px;
 }
 
 .footer-button {
@@ -53,14 +53,14 @@
   font-size: 17px;
   line-height: 50px;
   text-decoration: none;
-  padding: 10px;
+  // padding: 10px;
   border-radius: 10px;
   border: solid 1px $white-1;
 }
 
-.white {
-  margin-top: 15px;
-  margin-left: 5px;
+.info {
+  // margin-top: 15px;
+  // margin-left: 5px;
   font-family: Lato;
   color: $white-1;
 }
@@ -71,26 +71,26 @@
   font-size: 18px;
   line-height: 28px;
   width: 281px;
-  margin-top: 15px;
+  // margin-top: 15px;
 }
 
 .socials {
-  display: flex;
+  // display: flex;
   width: 30px;
-  margin-bottom: 15px;
+  // margin-bottom: 15px;
 }
 
-.socials-icon {
-  margin-right: 5px;
-}
+// .socials-icon {
+//   margin-right: 5px;
+// }
 
 .contact {
-  display: flex;
+  // display: flex;
   color: $white-1;
   font-family: Lato;
   font-size: 20px;
   line-height: 30px;
-  text-align: left;
+  // text-align: left;
 }
 
 .footer-text {
@@ -99,7 +99,7 @@
   font-size: 14px;
   line-height: 21px;
   width: 281px;
-  text-align: left;
+  // text-align: left;
 }
 
 .categories-heading {
@@ -108,7 +108,7 @@
   font-size: 25px;
   line-height: 30px;
   width: 282px;
-  text-align: left;
+
   margin-left: 40px;
 }
 
@@ -116,8 +116,7 @@
   color: $yellow;
   font-family: Lato;
   font-size: 18px;
-  line-height: 35px;
-  width: 281px;
-  text-align: left;
+  // line-height: 35px;
+  // width: 281px;
   list-style-type: none;
 }

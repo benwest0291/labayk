@@ -1,7 +1,10 @@
 /* nav-bar */
+.main-nav {
+  width: 1640px;
+}
+
 .logo-img {
   margin-left: 301px;
-  width: 49px;
 }
 
 .login-img {
@@ -24,14 +27,8 @@
 
 /* Banner */
 .top-banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   background-color: #f5f5f5;
-  width: 100vw;
+  width: 1640px;
   height: 170px;
 }
 
@@ -51,20 +48,14 @@ input[type="text"] {
 }
 
 .main-img-banner {
-  width: 100vw;
+  width: 1640px;
   height: 800px;
 }
 
 /* green-Footer */
 .policy-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #26705e;
-  width: 100vw;
+  width: 1640px;
 }
 
 .policy-item {
@@ -72,46 +63,25 @@ input[type="text"] {
   font-family: Lato;
   font-size: 14px;
   line-height: 21px;
-  text-align: center;
   list-style-type: none;
-  margin: 10px;
 }
 
 /* Payment Footer */
 .payment-footer {
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   height: 20px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  width: 100vw;
+  width: 1640px;
 }
 
 .payment-item {
   width: 31px;
   height: 20px;
-  margin-right: 10px;
 }
 
 /* Blue Footer */
 .blue-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: #1f2f4b;
-  padding: 25px;
-  width: 100vw;
+  width: 1640px;
 }
 
 .footer-button {
@@ -121,14 +91,11 @@ input[type="text"] {
   font-size: 17px;
   line-height: 50px;
   text-decoration: none;
-  padding: 10px;
   border-radius: 10px;
   border: solid 1px #fff;
 }
 
-.white {
-  margin-top: 15px;
-  margin-left: 5px;
+.info {
   font-family: Lato;
   color: #fff;
 }
@@ -139,30 +106,17 @@ input[type="text"] {
   font-size: 18px;
   line-height: 28px;
   width: 281px;
-  margin-top: 15px;
 }
 
 .socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 30px;
-  margin-bottom: 15px;
-}
-
-.socials-icon {
-  margin-right: 5px;
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   color: #fff;
   font-family: Lato;
   font-size: 20px;
   line-height: 30px;
-  text-align: left;
 }
 
 .footer-text {
@@ -171,7 +125,6 @@ input[type="text"] {
   font-size: 14px;
   line-height: 21px;
   width: 281px;
-  text-align: left;
 }
 
 .categories-heading {
@@ -180,7 +133,6 @@ input[type="text"] {
   font-size: 25px;
   line-height: 30px;
   width: 282px;
-  text-align: left;
   margin-left: 40px;
 }
 
@@ -188,24 +140,12 @@ input[type="text"] {
   color: #ffe28c;
   font-family: Lato;
   font-size: 18px;
-  line-height: 35px;
-  width: 281px;
-  text-align: left;
   list-style-type: none;
 }
 
 /* Mailing List */
 .mailing-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100vw;
+  width: 1640px;
 }
 
 .mailing-heading {
@@ -224,8 +164,6 @@ input[type="text"] {
   font-family: Lato;
   font-size: 16px;
   line-height: 24px;
-  width: 633px;
-  text-align: left;
 }
 
 .sign-up-button {
@@ -246,24 +184,5 @@ input[type="text"] {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-/* Push Footer Down */
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
-.wrapper {
-  min-height: 100%;
-  /* Equal to height of footer */
-  /* But also accounting for potential margin-bottom of last child */
-  margin-bottom: -50px;
-}
-
-.footer,
-.push {
-  height: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
